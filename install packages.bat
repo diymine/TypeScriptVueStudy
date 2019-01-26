@@ -1,1 +1,1 @@
-npm install --save-dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler webpack-cli vue-style-loader css-loader
+npm install --save-dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler webpack-cli vue-style-loader css-loader vue-class-component vue-property-decorator

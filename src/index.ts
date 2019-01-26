@@ -2,6 +2,7 @@
 import Vue from "vue";
 import HelloComponent from "./components/Hello";
 import Hello2Component from "./components/Hello.vue";
+//import HelloDecorator from "./components/HelloDecorator.vue";
 
 let v = new Vue({
     el: "#app",
@@ -27,3 +28,12 @@ let v2 = new Vue({
         Hello2Component
     }
 });
+
+// let v3 = new Vue({
+//     el: "#app3",
+
+//     data: { name: "World44" },
+//     components: {
+//         HelloDecorator
+//     }
+// });
