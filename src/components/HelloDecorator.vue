@@ -13,8 +13,8 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 @Component
 export default class HelloDecorator extends Vue {
   @Prop() name!: string;
-  @Prop() initialEnthusiasm!: number;
-  enthusiasm = this.initialEnthusiasm;
+  @Prop() initialenthusiasm!: number;
+  enthusiasm = this.initialenthusiasm;
   increment() {
     this.enthusiasm++;
   }
