@@ -1,15 +1,19 @@
 // src/index.ts
-
-import Vue from "../node_modules/vue";
+import Vue from "vue";
+import HelloComponent from "./components/Hello";
 
 let v = new Vue({
     el: "#app",
-    template: `
-    <div>
-        <div>Hello {{name}}!</div>
-        Name: <input v-model="name" type="text">
-    </div>`,
     data: {
         name: "World"
+    }
+});
+
+let v1 = new Vue({
+    el: "#app1",
+
+    data: { name: "World22" },
+    components: {
+        HelloComponent
     }
 });
