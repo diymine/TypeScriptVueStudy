@@ -1,6 +1,6 @@
 import Vue from "vue";
 
-export default Vue.component("hello-component", {
+export default Vue.extend({
     template: `
         <div>
             <div>Hello {{name}}{{exclamationMarks}}</div>

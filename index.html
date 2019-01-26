@@ -9,13 +9,12 @@
             <div>Hello {{name}}!</div>
             Name: <input v-model="name" type="text">
         </div>
-        <hello-component name="name" initialEnthusiasm="5" />
     </div>
     <hr />
     <div id="app1">
         <div>
             Name: <input v-model="name" type="text">
-            <hello-component :name="name" :initialEnthusiasm="5" />
+            <hello-component :name="name" :initialenthusiasm="5" />
         </div>
     </div>
 </body>
